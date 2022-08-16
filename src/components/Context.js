@@ -166,7 +166,9 @@ export class DataProvider extends Component {
                             this.setState({cart: cart});
                             this.getTotal();
                         }
+                        item.count=0
                     }
+                    
                 }else{
                     item.count -=1
                 }

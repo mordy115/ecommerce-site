@@ -41,3 +41,9 @@ section .cart{
     margin-right: 50px;
     color: crimson;
 }
+@media screen and (max-width:900px){
+    .total{
+        margin-bottom: 100px;
+        padding-left: 20px;
+    }
+}
