@@ -28,6 +28,7 @@ section .cart{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 .total a{
     text-decoration: none;
@@ -36,6 +37,7 @@ section .cart{
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 10px 25px;
+    
 }
 .total h3{
     margin-right: 50px;
@@ -43,7 +45,7 @@ section .cart{
 }
 @media screen and (max-width:900px){
     .total{
-        margin-bottom: 100px;
+        
         padding-left: 20px;
     }
 }
