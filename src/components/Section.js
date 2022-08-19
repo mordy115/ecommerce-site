@@ -15,14 +15,14 @@ import Address from './pages/Address'
         return (
             <div>
                     <Route path="/" component={Products} exact />
-                    <Route path="/product" component={Products} exact  />
-                    <Route path="/product/:id" component={Details} exact />
-                    <Route path="/cart" component={Cart}  exact/>
-                    <Route path="/payment" component={Payment} exact />
-                    <Route path="/contact" component={Contact} exact />
-                    <Route path="/about" component={About} exact />
-                    <Route path="/login" component={Login} exact />
-                    <Route path="/address" component={Address} exact />
+                    <Route path="/ecommerce-site/product" component={Products} exact  />
+                    <Route path="/ecommerce-site/product/:id" component={Details} exact />
+                    <Route path="/ecommerce-site/cart" component={Cart}  exact/>
+                    <Route path="/ecommerce-site/payment" component={Payment} exact />
+                    <Route path="/ecommerce-site/contact" component={Contact} exact />
+                    <Route path="/ecommerce-site/about" component={About} exact />
+                    <Route path="/ecommerce-site/login" component={Login} exact />
+                    <Route path="/ecommerce-site/address" component={Address} exact />
             </div>
         )
     }
