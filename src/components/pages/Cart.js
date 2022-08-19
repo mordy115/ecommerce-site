@@ -43,7 +43,7 @@ export class Cart extends Component {
                         ))
                     }
                     <div className="total">
-                        <Link to="/payment">Payment</Link>
+                        <Link to="/ecommerce-site/payment">Payment</Link>
                         <h3>Total: ${total}</h3>
                     </div>
                 </>
