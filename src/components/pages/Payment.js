@@ -57,7 +57,7 @@ export class Payment extends Component {
                     }
                 </div>
                 <div className='btn-pages'>
-                  <Link to="/ecommerce-site/cart">back</Link>
+                  <Link to="/cart">back</Link>
                   <Link to="/address">Next</Link>
                 </div>
             </div>
