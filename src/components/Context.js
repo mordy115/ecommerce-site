@@ -14,7 +14,9 @@ export class DataProvider extends Component {
                 "content": "Welcome to my e-commerce site, here most of the data is not real, but it is to show the design and",
                 "price": 23,
                 "colors": ["red", "black", "crimson", "teal"],
-                "count": 1
+                "count": 1,
+                "size": "",
+                "color":""
             },
             {
                 "_id": "2",
@@ -24,7 +26,9 @@ export class DataProvider extends Component {
                 "content": "Welcome to my e-commerce site, here most of the data is not real, but it is to show the design and",
                 "price": 19,
                 "colors": ["red", "crimson", "teal"],
-                "count": 1
+                "count": 1,
+                "size": "",
+                "color":""
             },
             {
                 "_id": "3",
@@ -34,7 +38,9 @@ export class DataProvider extends Component {
                 "content": "Welcome to my e-commerce site, here most of the data is not real, but it is to show the design and",
                 "price": 50,
                 "colors": ["lightblue", "white", "crimson", "teal"],
-                "count": 1
+                "count": 1,
+                "size": "",
+                "color":""
             },
             {
                 "_id": "4",
@@ -44,7 +50,9 @@ export class DataProvider extends Component {
                 "content": "Welcome to my e-commerce site, here most of the data is not real, but it is to show the design and",
                 "price": 15,
                 "colors": ["orange", "black", "crimson", "teal"],
-                "count": 1
+                "count": 1,
+                "size": "",
+                "color":""
             },
             {
                 "_id": "5",
@@ -54,7 +62,9 @@ export class DataProvider extends Component {
                 "content": "Welcome to my e-commerce site, here most of the data is not real, but it is to show the design and",
                 "price": 10,
                 "colors": ["orange", "black", "crimson", "teal"],
-                "count": 1
+                "count": 1,
+                "size": "",
+                "color":""
             },
             {
                 "_id": "6",
@@ -64,7 +74,8 @@ export class DataProvider extends Component {
                 "content": "Welcome to my e-commerce site, here most of the data is not real, but it is to show the design and",
                 "price": 17,
                 "colors": ["orange", "black", "crimson", "teal"],
-                "count": 1
+                "count": 1,
+                "size": ""
             },
             {
                 "_id": "7",
@@ -74,7 +85,9 @@ export class DataProvider extends Component {
                 "content": "Welcome to my e-commerce site, here most of the data is not real, but it is to show the design and",
                 "price": 17,
                 "colors": ["red", "crimson", "teal"],
-                "count": 1
+                "count": 1,
+                "size": "",
+                "color":""
             },
             {
                 "_id": "8",
@@ -84,7 +97,9 @@ export class DataProvider extends Component {
                 "content": "Welcome to my e-commerce site, here most of the data is not real, but it is to show the design and",
                 "price": 58,
                 "colors": ["lightblue", "white", "crimson", "teal"],
-                "count": 1
+                "count": 1,
+                "size": "",
+                "color":""
             },
             {
                 "_id": "9",
@@ -94,7 +109,9 @@ export class DataProvider extends Component {
                 "content": "Welcome to my e-commerce site, here most of the data is not real, but it is to show the design and",
                 "price": 13,
                 "colors": ["orange", "black", "crimson", "teal"],
-                "count": 1
+                "count": 1,
+                "size": "",
+                "color":""
             },
             {
                 "_id": "10",
@@ -104,7 +121,8 @@ export class DataProvider extends Component {
                 "content": "Welcome to my e-commerce site, here most of the data is not real, but it is to show the design and",
                 "price": 20,
                 "colors": ["orange", "black", "crimson", "teal"],
-                "count": 1
+                "count": 1,
+                "size": ""
             },
             {
                 "_id": "11",
@@ -114,7 +132,9 @@ export class DataProvider extends Component {
                 "content": "Welcome to my e-commerce site, here most of the data is not real, but it is to show the design and",
                 "price": 28,
                 "colors": ["orange", "black", "crimson", "teal"],
-                "count": 1
+                "count": 1,
+                "size": "",
+                "color":""
             },
             {
                 "_id": "12",
@@ -124,7 +144,9 @@ export class DataProvider extends Component {
                 "content": "Welcome to my e-commerce site, here most of the data is not real, but it is to show the design and",
                 "price": 35,
                 "colors": ["red", "black", "crimson", "teal"],
-                "count": 1
+                "count": 1,
+                "size": "",
+                "color":""
             },
         ],
         cart: [],
@@ -165,6 +187,8 @@ export class DataProvider extends Component {
                             
                             this.setState({cart: cart});
                             this.getTotal();
+                        }else{
+                            item.count= 1 ;
                         }
                         item.count=0
                     }

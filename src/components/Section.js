@@ -7,6 +7,7 @@ import Payment from './pages/Payment'
 import Contact from './pages/Contact'
 import About from './pages/About'
 import Login from './pages/Login'
+import Address from './pages/Address'
 
 
  class Section extends Component {
@@ -21,6 +22,7 @@ import Login from './pages/Login'
                     <Route path="/contact" component={Contact} exact />
                     <Route path="/about" component={About} exact />
                     <Route path="/login" component={Login} exact />
+                    <Route path="/address" component={Address} exact />
             </div>
         )
     }

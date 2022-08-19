@@ -1,0 +1,17 @@
+.home-address h2{
+    text-align: center;
+    padding: 3px 10px;
+    color: rgb(104, 100, 100);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+.home-address hr {
+    width: 200px;
+    text-align: center;
+    margin: 20px auto;
+   
+}
+.home-addres form{
+    text-align: center;
+    margin: 20px auto;
+}

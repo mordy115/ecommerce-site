@@ -39,3 +39,35 @@ footer{
     font-size: 20px;
     color: #EEE;
 }
+.btn-pages{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+.btn-pages a ,.Save-choose{
+    border: none;
+    outline: none;
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 15px 0;
+    text-decoration: dashed;
+
+}
+.btn-pages a:hover ,.Save-choose:hover{
+  color: rgb(230, 49, 49);
+}
+.choose-order{
+  padding:0px 20px ;
+}
+.choose-order select {
+ margin-left: 20px;
+ padding:5px 10px;
+}
+.choose-order input {
+  padding:5px 10px;
+ }
+
