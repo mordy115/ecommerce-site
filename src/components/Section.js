@@ -5,10 +5,10 @@ import {Route} from "react-router-dom"
 import Cart from './pages/Cart'
 import Payment from './pages/Payment'
 import Contact from './pages/Contact'
-import About from './pages/About'
+import Ordered from './pages/Ordered'
 import Login from './pages/Login'
-import Address from './pages/Address'
-
+import { Address } from './pages/Address'
+import Confirmorder from './pages/Confirmorder'
 
  class Section extends Component {
     render() {
@@ -20,9 +20,10 @@ import Address from './pages/Address'
                     <Route path="/cart" component={Cart}  exact/>
                     <Route path="/payment" component={Payment} exact />
                     <Route path="/contact" component={Contact} exact />
-                    <Route path="/about" component={About} exact />
+                    <Route path="/ordered" component={Ordered} exact />
                     <Route path="/login" component={Login} exact />
                     <Route path="/address" component={Address} exact />
+                    <Route path="/confirm-order" component={Confirmorder} exact />
             </div>
         )
     }

@@ -240,6 +240,7 @@ export class DataProvider extends Component {
     componentDidUpdate(){
         localStorage.setItem('dataCart', JSON.stringify(this.state.cart))
         localStorage.setItem('dataTotal', JSON.stringify(this.state.total))
+
     };
 
     componentDidMount(){
@@ -250,6 +251,14 @@ export class DataProvider extends Component {
         const dataTotal = JSON.parse(localStorage.getItem('dataTotal'));
         if(dataTotal !== null){
             this.setState({total: dataTotal});
+        }
+        const dataAddress = JSON.parse(localStorage.getItem('dataAddress'));
+        if(dataAddress !== null){
+            this.setState({Address: dataAddress});
+        }
+        const dataordered = JSON.parse(localStorage.getItem('dataordered'));
+        if(dataordered !== null){
+            this.setState({ordered: dataordered});
         }
     }
    

@@ -1,3 +1,4 @@
+
 .home-address h2{
     text-align: center;
     padding: 3px 10px;
@@ -11,7 +12,16 @@
     margin: 20px auto;
    
 }
-.home-addres form{
+.inputs{
     text-align: center;
     margin: 20px auto;
+    
+}
+.inputs  input,.inputs button{
+    padding:5px 10px;
+    margin: 10px auto;
+    display: block;
+}
+form input {
+    width: 50%;
 }
